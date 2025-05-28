@@ -1,4 +1,3 @@
-// import "./wdyr.js";
 import { createRoot } from 'react-dom/client';
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom';
 import { Provider } from 'react-redux';
