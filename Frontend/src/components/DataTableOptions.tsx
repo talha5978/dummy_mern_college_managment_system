@@ -1,4 +1,10 @@
 import { useSelector } from "react-redux";
+import { DataTableViewOptionsProps } from "./ComplexDataTable";
+import { openDialog, setStudentDialogeData, stateDialogeBoxes } from "../store/uiSlice";
+import { Button } from "@/components/ui/button";
+import { Badge, Filter, PlusIcon, Settings2 } from "lucide-react";
+import { DropdownMenu, DropdownMenuContent, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
+import { DropdownMenuCheckboxItem } from "./ui/dropdown-menu";
 
 
 export function DataTableViewOptions<TData>({ table, disabled, dispatch }: DataTableViewOptionsProps<TData>) {

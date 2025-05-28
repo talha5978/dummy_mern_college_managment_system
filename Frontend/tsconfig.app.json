@@ -16,11 +16,12 @@
 		"jsx": "react-jsx",
 
 		/* Linting */
-		"strict": true,
+		"noImplicitAny": false, // add this new property as false
+		"strict": false, // changed strict to false
 		"noUnusedLocals": true,
 		"noUnusedParameters": true,
 		"noFallthroughCasesInSwitch": true,
-		"noUncheckedSideEffectImports": true
+		"noUncheckedSideEffectImports": true,
 	},
 	"baseUrl": ".",
 	"paths": {

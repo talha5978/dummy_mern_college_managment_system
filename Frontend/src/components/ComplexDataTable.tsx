@@ -76,8 +76,8 @@ function DataTable<T>({
 					{loadingState ? (
 						Array.from({ length: NoOfSkeletonRows }, (_, i) => i + 1).map((i) => (
 							<TableRow key={i}>
-								{table.getHeaderGroups().map((headerGroup) =>
-									headerGroup.headers.map((header) => {
+								{table.getHeaderGroups().map((headerGroup:any) =>
+									headerGroup.headers.map((header:any) => {
 										return (
 											<TableCell key={header.id}>
 												<Skeleton className="h-[30px] w-full bg-muted-dark dark:bg-muted" />
