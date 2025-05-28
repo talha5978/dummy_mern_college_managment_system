@@ -10,7 +10,7 @@ Frontend/.vite/
 Frontend/.env
 
 
-# Vite (Frontend)
+# Bakcend (Express)
 Backend/dist/
 Backend/.env
 
