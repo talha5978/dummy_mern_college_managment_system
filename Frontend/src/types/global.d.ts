@@ -9,7 +9,6 @@ declare module "src/lib/utils" {
 }
 
 declare module 'chroma-js';
-declare module "react-big-calendar";
 
 type RefinedData = {
 	[key: string]: string | number
