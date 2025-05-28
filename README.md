@@ -133,9 +133,6 @@ This project is designed for **personal learning and experimentation**. As such,
 ## 📸 Screenshots
 Below are some screenshots in development mode for fully working application:
 
-### Student Attendance Details
-![Student Attendance Details](./public/screenshots/STUDENT_ATTENDANCE_DETAILS.png)
-
 ### Timetable Management
 ![Timetable Page for Admin](./public/screenshots/TIMETABLE_PAGE_ADMIN.png)
 
@@ -144,6 +141,9 @@ Below are some screenshots in development mode for fully working application:
 
 ### Academics Managment Page
 ![Academics Managment Page for Admin](./public/screenshots/ACADMICS_MANAGMENT_PAGE_ADMIN.png)
+
+### Students Managment Page
+![Add Student Form for Admin](./public/screenshots/STUDENTS_MANAGMENT_PAGE_ADMIN.png)
 
 ### Add Student Form
 ![Add Student Form for Admin](./public/screenshots/ADD_STUDENT_FORM.png)
