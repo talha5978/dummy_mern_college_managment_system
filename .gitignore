@@ -1,0 +1,33 @@
+# Node.js
+node_modules/
+.env
+.env.*    # if you use .env.development or .env.local
+npm-debug.log*
+
+# Vite (Frontend)
+Frontend/dist/
+Frontend/.vite/
+Frontend/.env
+
+
+# Vite (Frontend)
+Backend/dist/
+Backend/.env
+
+# Vercel build cache
+.vercel/
+
+# Railway local cache (if any)
+.railway/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Optional IDEs
+.vscode/
+.idea/
